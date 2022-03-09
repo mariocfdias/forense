@@ -47,9 +47,7 @@ import {
       fd.append('title', title);
       fd.append('description', description)
       fd.append('base_image', image)
-      console.log(fd)
       api.patch('/auth/me/images/', fd)
-      console.log("Enviado");
     }
 
 
